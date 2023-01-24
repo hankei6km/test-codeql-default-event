@@ -1,0 +1,19 @@
+{
+  "name": "test-codeql-default-event",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankei6km/test-codeql-default-event.git"
+  },
+  "author": "hankei6km <hankei6km@gmail.com> (https://github.com/hankei6km)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hankei6km/test-codeql-default-event/issues"
+  },
+  "homepage": "https://github.com/hankei6km/test-codeql-default-event#readme"
+}
