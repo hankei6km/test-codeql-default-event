@@ -1,0 +1,17 @@
+name: test
+on:
+  push:
+    branches:
+      - "**"
+    tags:
+      - "!v*"
+jobs:
+  jest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run index.js
+        run: |
+          node index.js
